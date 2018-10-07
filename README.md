@@ -1,6 +1,6 @@
 <div align="center">
     <h1>C# Kassensystem</h1>
-    <strong style="color: 90, 96, 104;">Einfaches, übersichtliches Kassensystem</strong>
+    <strong style="color: 90, 96, 104;">Einfaches und übersichtliches Kassensystem</strong>
 </div>
 
 
