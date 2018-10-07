@@ -73,6 +73,7 @@ namespace Kassensystem
             }
             ProdukteBox.AppendText("\r\n " + id + "." + leer + name + " - " + preis);
             ProdukteBox.ScrollToCaret();
+            ProdukteBox.Refresh();
         }
 
         private void prodIDRemoveBtn_Click(object sender, EventArgs e)
@@ -114,21 +115,36 @@ namespace Kassensystem
 
         private void DeleteLine(int a_line)
         {
-            int start_index = ProdukteBox.GetFirstCharIndexFromLine(a_line);
-            int count = ProdukteBox.Lines[a_line].Length;
+            try{
+                int start_index = ProdukteBox.GetFirstCharIndexFromLine(a_line);
+                int count = ProdukteBox.Lines[a_line].Length;
 
-            // Eat new line chars
-            if (a_line < ProdukteBox.Lines.Length - 1)
-            {
-                count += ProdukteBox.GetFirstCharIndexFromLine(a_line + 1) -
-                    ((start_index + count - 1) + 1);
+                // Eat new line chars
+                if (a_line < ProdukteBox.Lines.Length - 1)
+                {
+                    count += ProdukteBox.GetFirstCharIndexFromLine(a_line + 1) -
+                        ((start_index + count - 1) + 1);
+                }
+                string lastPart = ProdukteBox.Lines[a_line].Split('-').Last();
+                if (lastPart != null)
+                {
+                    IDErrorLabel.Visible = false;
+                    lastPart = lastPart.Remove(lastPart.Length - 1);
+                    price -= float.Parse(lastPart, System.Globalization.CultureInfo.InvariantCulture);
+                    updatePreis();
+
+                    ProdukteBox.Text = ProdukteBox.Text.Remove(start_index, count);
+                    ProdukteBox.Refresh();
+                    IDErrorLabel.Visible = false;
+                }
+                else
+                {
+                    IDErrorLabel.Visible = true;
+                }
             }
-            string lastPart = ProdukteBox.Lines[a_line].Split('-').Last();
-            lastPart = lastPart.Remove(lastPart.Length - 1);
-            price -= float.Parse(lastPart, System.Globalization.CultureInfo.InvariantCulture);
-            updatePreis();
-
-            ProdukteBox.Text = ProdukteBox.Text.Remove(start_index, count);
+            catch {
+                IDErrorLabel.Visible = true;
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)

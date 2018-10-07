@@ -41,6 +41,7 @@
             this.ProdukteBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.LBrötchen = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.Brezel = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.PreisLabel2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.LBrötchen = new System.Windows.Forms.Button();
             this.Control.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -209,6 +209,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Produkte";
             // 
+            // LBrötchen
+            // 
+            this.LBrötchen.Location = new System.Drawing.Point(315, 67);
+            this.LBrötchen.Name = "LBrötchen";
+            this.LBrötchen.Size = new System.Drawing.Size(122, 48);
+            this.LBrötchen.TabIndex = 3;
+            this.LBrötchen.Text = "Laugenbrötchen (0.80€)";
+            this.LBrötchen.UseVisualStyleBackColor = true;
+            this.LBrötchen.Click += new System.EventHandler(this.LBrötchen_Click);
+            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(160, 67);
@@ -291,7 +301,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(523, 133);
+            this.textBox1.Location = new System.Drawing.Point(514, 133);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(83, 20);
             this.textBox1.TabIndex = 10;
@@ -302,7 +312,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 14.25F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(432, 133);
+            this.label4.Location = new System.Drawing.Point(423, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 22);
             this.label4.TabIndex = 9;
@@ -313,7 +323,7 @@
             this.PreisLabel2.AutoSize = true;
             this.PreisLabel2.Font = new System.Drawing.Font("Consolas", 14.25F);
             this.PreisLabel2.ForeColor = System.Drawing.Color.White;
-            this.PreisLabel2.Location = new System.Drawing.Point(519, 83);
+            this.PreisLabel2.Location = new System.Drawing.Point(512, 83);
             this.PreisLabel2.Name = "PreisLabel2";
             this.PreisLabel2.Size = new System.Drawing.Size(60, 22);
             this.PreisLabel2.TabIndex = 8;
@@ -324,21 +334,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(432, 83);
+            this.label3.Location = new System.Drawing.Point(425, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 22);
             this.label3.TabIndex = 7;
             this.label3.Text = "Preis:";
-            // 
-            // LBrötchen
-            // 
-            this.LBrötchen.Location = new System.Drawing.Point(315, 67);
-            this.LBrötchen.Name = "LBrötchen";
-            this.LBrötchen.Size = new System.Drawing.Size(122, 48);
-            this.LBrötchen.TabIndex = 3;
-            this.LBrötchen.Text = "Laugenbrötchen (0.80€)";
-            this.LBrötchen.UseVisualStyleBackColor = true;
-            this.LBrötchen.Click += new System.EventHandler(this.LBrötchen_Click);
             // 
             // Form1
             // 
