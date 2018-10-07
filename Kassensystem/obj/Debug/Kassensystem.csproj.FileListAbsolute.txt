@@ -1,0 +1,13 @@
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\bin\Debug\Kassensystem.exe.config
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\bin\Debug\Kassensystem.exe
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\bin\Debug\Kassensystem.pdb
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.csprojAssemblyReference.cache
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.Form1.resources
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.Properties.Resources.resources
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.csproj.GenerateResource.cache
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.csproj.CoreCompileInputs.cache
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.exe
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.pdb
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\bin\Debug\de\Microsoft.VisualBasic.PowerPacks.resources.dll
+D:\Programmieren\Visual Studio\Projects\Kassensystem\Kassensystem\obj\Debug\Kassensystem.csproj.CopyComplete
