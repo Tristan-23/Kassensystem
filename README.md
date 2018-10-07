@@ -1,6 +1,6 @@
 <div align="center">
     <h1>C# Kassensystem</h1>
-    <strong>Einfaches, übersichtliches Kassensystem</strong>
+    <strong style="color: 90, 96, 104;">Einfaches, übersichtliches Kassensystem</strong>
 </div>
 
 
@@ -8,14 +8,14 @@
 
 ## Funktionen
 
-[x] Prodkute der Liste hinzufügen
-[x] Produkte aus der Liste entfernen
-[x] Rückgeld errechnen
+- [x] Prodkute der Liste hinzufügen<br>
+- [x] Produkte aus der Liste entfernen<br>
+- [x] Rückgeld errechnen<br>
 
-- Geplante Funktionen
+<a>Geplante Funktionen</a>
 
-[] Touchscreen freundlich
-[] Eigene Produkte im Programm hinzufügen
+- [] Touchscreen freundlich<br>
+- [] Eigene Produkte im Programm hinzufügen<br>
 
 
 
