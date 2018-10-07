@@ -14,8 +14,8 @@
 
 <a>Geplante Funktionen</a>
 
-- [] Touchscreen freundlich<br>
-- [] Eigene Produkte im Programm hinzufügen<br>
+- [ ] Touchscreen freundlich<br>
+- [ ] Eigene Produkte im Programm hinzufügen<br>
 
 
 
