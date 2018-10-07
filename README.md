@@ -4,6 +4,7 @@
 </div>
 
 
+---
 
 
 ## Funktionen
@@ -19,6 +20,7 @@
 
 
 
+---
 
 
 
@@ -34,6 +36,10 @@ Man kann neue Produkte ganz einfach dazu programmieren
  [BEISPIEL] addProd("Laugenbrötchen", "0.80€", 0.80f);
 
 ```
+
+
+---
+
 
 
 ## Produkt hinzufügen
